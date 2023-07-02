@@ -3,9 +3,11 @@ package ru.netology.service;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+
 public class CashbackHackServiceTest {
 
     CashbackHackService service = new CashbackHackService();
+
     @Test
     public void positiveCashbackService() {
         int amount = 1001;
